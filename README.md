@@ -12,7 +12,6 @@ This plugin use the Cordova CLI's plugin command. To install it to your applicat
 cordova plugin add com.afreire.plugins.video
 ```
 
-
 # Licence MIT
 
 Copyright 2013 Quentin Aupetit
