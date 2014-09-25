@@ -119,7 +119,7 @@ public class VideoPlayer extends CordovaPlugin {
     private void copy(String fileFrom, String fileTo) throws IOException {
         // get file to be copied from assets
         //InputStream in = this.cordova.getActivity().getAssets().open(fileFrom);
-        // Se obtiene el video desde cualquier ubicaci—n y no solo de assets.
+        // The video is obtained from any location and not just assets.
     	InputStream in = new FileInputStream(fileFrom);
         // get file where copied too, in internal storage.
         // must be MODE_WORLD_READABLE or Android can't play it
